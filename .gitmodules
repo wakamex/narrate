@@ -1,0 +1,3 @@
+[submodule "Kokoro-82M"]
+	path = Kokoro-82M
+	url = https://huggingface.co/hexgrad/Kokoro-82M
