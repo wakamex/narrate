@@ -1,0 +1,12 @@
+src/text/dune.txt
+src/text/prompts.txt
+__pycache__/
+.env
+book_images
+book_audio
+book_video.mp4
+__pycache__/
+*.pyc
+*.egg-info/
+*.pyc
+__pycache__/

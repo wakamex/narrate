@@ -1,0 +1,274 @@
+(00:00 - 00:16) Prompt: A vast desert landscape at dawn, with a single, ancient planet in the sky, glowing with a soft light. Style: realistic_image, artistic_level: 2, size: 1707x1024
+(00:16 - 00:25) Prompt: Arrakis, the desert planet known as Dune, seen from a low angle emphasizing the vastness and desolation. Style: realistic_image, artistic_level: 3, size: 1820x1024
+(00:25 - 00:45) Prompt: A dimly lit bedroom, with a boy sleeping in a bed. An old woman in a dark hooded robe peers into the room, a silhouette against the light from the hallway, while the boy's mother stands just behind her. Style: digital_illustration, substyle: hand_drawn_outline, artistic_level: 3, size: 1820x1024
+(00:45 - 01:01) Prompt: An old woman, hair like matted spider webs, hooded round dark features, eyes like glittering jewels. She is leaning slightly forward, as if listening to someone speak. Style: digital_illustration, substyle: hand_drawn, artistic_level: 4, size: 1536x1024
+(01:01 - 01:22) Prompt: A young boy in bed. His eyes are barely open as he tries to see through the darkness, while an old woman at the door has large, bright, and glowing eyes. Style: expressionism, artistic_level: 4, size: 1536x1024
+(01:22 - 01:37) Prompt: A single word "GOM" outlined and appearing to be glowing in a dark room with shadows. bbox: [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]], text_layout: [ { 'text': "GOM", 'bbox': [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]] } ], style: bold_fantasy, artistic_level: 2, size: 1280x1024
+(01:22 - 01:37) Prompt: A single word "JABBAR" outlined and appearing to be glowing in a dark room with shadows. bbox: [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]], text_layout: [ { 'text': "JABBAR", 'bbox': [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]] } ], style: bold_fantasy, artistic_level: 2, size: 1280x1024
+(01:37 - 01:51) Prompt: A single word "KWISATZ" outlined and appearing to be glowing in a dark room with shadows. bbox: [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]], text_layout: [ { 'text': "KWISATZ", 'bbox': [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]] } ], style: bold_fantasy, artistic_level: 2, size: 1280x1024
+(01:37 - 01:51) Prompt: A single word "HADERACH" outlined and appearing to be glowing in a dark room with shadows. bbox: [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]], text_layout: [ { 'text': "HADERACH", 'bbox': [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]] } ], style: bold_fantasy, artistic_level: 2, size: 1280x1024
+(01:51 - 02:08) Prompt: A vast desert planet with a swirling dust storm, small figures can be seen moving across the sand dunes. Style: realistic_image, substyle: motion_blur, artistic_level: 3, size: 2048x1024
+(02:08 - 02:15) Prompt: A view from a distance of two large buildings, each one with a slightly different architectural design, both on the planet Arrakis, that appear to be in an industrial setting. The sky above is a dark, ominous orange color. Style: realistic_image, substyle: urban_drama, artistic_level: 3, size: 1434x1024
+(02:15 - 02:26) Prompt: A group of shadowy figures standing before a fire, looking menacing and powerful. Style: noir, artistic_level: 4, size: 1024x1536
+(02:26 - 02:37) Prompt: An Arrakeen cavern, with small silent people moving around in a dim light of glow globes, showing a sense of somber grandeur. Style: mystic_naturalism, artistic_level: 3, size: 1280x1024
+(02:37 - 02:49) Prompt: The sun rises through an open window in the bedroom of a castle, the view outside shows a river orchard. Style: real_life_glow, artistic_level: 2, size: 1536x1024
+(02:49 - 02:58) Prompt: A group of Fremen people, with wind-swept robes and blue eyes, standing in the desert wind at the edge of sand dunes. Style: natural_tones, artistic_level: 3, size: 1024x1707
+(02:58 - 03:13) Prompt: A close up of a person's hands clenching into fists, tense and veins bulging with force, while the view of the room is slightly out of focus. Style: hard_flash, artistic_level: 4, size: 1280x1024
+(03:13 - 03:26) Prompt: A chaotic scene, where a wild animal is tearing into its prey in a wild, aggressive manner with no thought to the future. Style: graphic_intensity, artistic_level: 4, size: 1536x1024
+(03:26 - 03:41) Prompt: A person looking out upon the star filled sky, a barely there grid pattern superimposed on the image. Style: mystic_naturalism, artistic_level: 2, size: 1365x1024
+(03:41 - 03:51) Prompt: Dawn light touches a windowsill in a bedroom, casting long shadows on the ceiling and a feeling of calmness and warmth. Style: evening_light, artistic_level: 3, size: 1365x1024
+(03:51 - 04:04) Prompt: Paul's mother, Jessica, peers into his room, her hair like shaded bronze, held with black ribbon at the crown, her oval face emotionless and her green eyes staring solemnly. Style: studio_portrait, artistic_level: 2, size: 1280x1536
+(04:04 - 04:17) Prompt: A black Atreides hawk crest on a red background, superimposed over an out of focus image of clothing racks in the background. style: thin, artistic_level: 2, size: 1280x1024
+(04:17 - 04:37) Prompt: An old, wizened woman stands with an intense stare in her eyes, wearing formal and ceremonial garb. Style: studio_portrait, artistic_level: 3, size: 1024x1365
+(04:37 - 04:50) Prompt: Paul hugs his knees looking concerned at his clothes and then the open window where his mother looks longingly off into the distance. The view is from slightly behind him, showing his back and head. Style: organic_calm, artistic_level: 3, size: 1536x1024
+(04:50 - 05:04) Prompt: A view of the mountains across a calm river, but with a barely perceptible image of a nervous mother looking out, her back to the camera. Style: faded_nostalgia, artistic_level: 2, size: 1707x1024
+(05:04 - 05:17) Prompt: A woman sits in an ornately decorated room, her face appears tired and a bit petulant, while looking toward two people who are approaching her. Style: pop_renaissance, artistic_level: 3, size: 1280x1024
+(05:17 - 05:35) Prompt: A view from the perspective of the woman in the chair looking at Jessica and Paul, while also showing the gardens of Caladan in the background. Style: natural_light, artistic_level: 3, size: 1024x1536
+(05:35 - 05:50) Prompt: A side view of Jessica, looking distraught as she does a small curtsy. Style: young_adult_book, artistic_level: 3, size: 1024x1365
+(05:50 - 06:02) Prompt: Close up of Paul and the Revered Mother, he with wide eyes and an intent gaze, she looks directly at him in return, showing her sharp features and controlled look. Style: realistic_image, artistic_level: 3, size: 1536x1024
+(06:02 - 06:11) Prompt: A shadowy image of a man laying dead with a detailed image of the head. Style: noir, artistic_level: 4, size: 1280x1024
+(06:11 - 06:30) Prompt: A set of hands holding a small green object with a black opening on one side. Style: digital_illustration, artistic_level: 3, size: 1024x1024
+(06:30 - 06:42) Prompt: A young Paul stares at his mother, his face a mix of confusion and trepidation, while Jessica's face can barely be seen. Style: child_book, artistic_level: 2, size: 1280x1024
+(06:42 - 06:51) Prompt: Paul's view from the bed of an old woman standing near a wooden door. She is very out of focus and shadowy, emphasizing her disappearance. Style: b_and_w, artistic_level: 2, size: 1536x1024
+(06:51 - 07:04) Prompt: Paul looks directly at the viewer, a mix of emotions on his face, anger, wonder, and curiosity, with a subtle hint of the old woman looking back at him out of the periphery of the picture. Style: pop_art, artistic_level: 3, size: 1434x1024
+(07:04 - 07:17) Prompt: A hand reaches towards a small, green metal cube with a black and terrifying opening on one side. Style: depressive, artistic_level: 3, size: 1280x1024
+(07:17 - 07:33) Prompt: A hand reaches towards a small, dark opening. The scene becomes dark around the hand as though its going into a shadowy pit, a reflection on the scene adds to the fear. Style: noir, artistic_level: 4, size: 1707x1024
+(07:33 - 07:47) Prompt: A close up of the old woman's face. She is staring intently while holding a thin metallic needle to the side of a neck. Style: thin, artistic_level: 4, size: 1280x1024
+(07:47 - 08:00) Prompt: A depiction of a sharp metallic needle with a large drop of poison on its tip. Style: chemistry, artistic_level: 2, size: 1024x1024
+(08:00 - 08:13) Prompt: A human body lying down with a set of hands holding that body down, the scene is from overhead and shadowy, giving a sense of helplessness. Style: depressive, artistic_level: 3, size: 1536x1024
+(08:13 - 08:28) Prompt: Close up of the old woman, a hint of anger or malice shown in her teeth, as though she's been insulted. Style: pop_renaissance, artistic_level: 4, size: 1280x1024
+(08:28 - 08:44) Prompt: A shadowy scene, with a looming dark figure in the foreground, while a window, with the outside world visible, can be seen on the right of the scene. Style: noir, artistic_level: 3, size: 1707x1024
+(08:44 - 09:02) Prompt: A hand is extended into a black box, with a close up on the box to emphasize its depths and unknown. Style: b_and_w, artistic_level: 2, size: 1024x1024
+(09:02 - 09:17) Prompt: A close up of a face, with veins bulging and contorted, screaming, a depiction of pure, unfiltered fear. Style: graphic_intensity, artistic_level: 5, size: 1365x1024
+(09:17 - 09:30) Prompt: A person lays in a dark room with a faint light. The scene is calm and peaceful. Their eyes are open but their mind appears far away. Style: faded_nostalgia, artistic_level: 2, size: 1024x1536
+(09:30 - 09:46) Prompt: Dawn light is coming through the window sill of a dark room. Style: evening_light, artistic_level: 3, size: 1280x1024
+(09:46 - 10:00) Prompt: A profile shot of Paul’s mother, Jessica, looking at the viewer with a stoic and somber look, her hair like shaded bronze held with black ribbon at the crown. Her oval face is emotionless, and her green eyes stare directly at the camera. Style: studio_portrait, artistic_level: 3, size: 1536x1024
+(10:00 - 10:17) Prompt: A person in a semiformally jacket, with a large hawk symbol embroidered at the breast pocket, hanging up a set of red trousers. Style: vector_illustration, substyle: colored_stencil, artistic_level: 2, size: 1280x1024
+(10:17 - 10:27) Prompt: A woman standing in an old stone hallway, with a set of intricate and ornate windows near her. Style: gothic_intensity, artistic_level: 3, size: 1536x1024
+(10:27 - 10:44) Prompt: A view from above of Jessica, as she throws clothing onto a large dressing stand near his bed with the Atreides symbol still showing. Style: hand_drawn_outline, artistic_level: 3, size: 1365x1024
+(10:44 - 11:00) Prompt: Paul sits on his bed while looking up towards the window. A single ray of light streams into the room from outside showing his confusion and thoughts. Style: infantile_sketch, artistic_level: 3, size: 1434x1024
+(11:00 - 11:17) Prompt: A woman sits facing away from the camera, as a mother and son enter the room to meet her. Style: pastel_gradient, artistic_level: 2, size: 1024x1707
+(11:17 - 11:30) Prompt: An old woman looks up intently with piercing eyes at her targets, with the background out of focus. Style: long_shadow, artistic_level: 3, size: 1365x1024
+(11:30 - 11:45) Prompt: A woman, Jessica, drops a curtsy, looking down slightly. She is wearing a formal garment and her arm is slightly raised. Style: realistic_image, substyle: enterprise, artistic_level: 2, size: 1280x1024
+(11:45 - 11:57) Prompt: A profile of Paul bowing with a low gaze, while the old woman looks at him. Style: 2d_art_poster, artistic_level: 3, size: 1434x1024
+(11:57 - 12:09) Prompt: Paul looks down on his mother's shoulder, as she puts her hands on them. Paul's mother looks off to the right, showing a sense of uncertainty or fear. Style: outline_details, artistic_level: 3, size: 1024x1280
+(12:09 - 12:22) Prompt: A dark, shadowy room, with the old woman shown in slight detail. The color of the scene fades slightly towards a bright window, showing outside. Style: b_and_w, artistic_level: 3, size: 1365x1024
+(12:22 - 12:32) Prompt: A set of hands pulls a door shut, and a sliver of light can be seen from the crack underneath the door. Style: natural_tones, artistic_level: 3, size: 1280x1024
+(12:32 - 12:43) Prompt: A medium close up of the Reverend Mother, she has a slight smile on her face while looking at Paul. Style: digital_illustration, substyle: digital_engraving, artistic_level: 2, size: 1024x1024
+(12:43 - 12:57) Prompt: A medium shot of Jessica with her head down, showing signs of trepidation and distress. The scene is slightly out of focus. Style: watercolor, artistic_level: 3, size: 1024x1024
+(12:57 - 13:10) Prompt: A young boy sits in a chair hugging his knees, he looks thoughtful and confused, and slightly fearful. Style: street_art, artistic_level: 3, size: 1365x1024
+(13:10 - 13:23) Prompt: A set of hands pulls a door shut, and a sliver of light can be seen from the crack underneath the door. Style: natural_tones, artistic_level: 3, size: 1280x1024
+(13:23 - 13:42) Prompt: A profile of Paul and his mother, with Jessica looking over her shoulder, at her son. Style: bold_fantasy, artistic_level: 3, size: 1024x1024
+(13:42 - 14:07) Prompt: A close shot of the old woman as she speaks, her head bent slightly forward and her features very severe and stern. style: noir, artistic_level: 4, size: 1024x1024
+(14:07 - 14:18) Prompt: A depiction of Jessica, with a strained expression as she walks out of frame. Behind her is a sliver of light and a hint of a dark room. Style: b_and_w, artistic_level: 2, size: 1024x1536
+(14:18 - 14:32) Prompt: A close shot of an old woman’s face with a subtle and sinister smile, showing a hint of wrinkled mouth. The background is blurry and out of focus. Style: pastel_sketch, artistic_level: 4, size: 1280x1024
+(14:32 - 14:41) Prompt: A young boy stands in a dimly lit room with his face in the shadows, but a hand can be seen coming into view. The colors should feel dark and brooding. Style: thin, artistic_level: 2, size: 1434x1024
+(14:41 - 14:57) Prompt: A close up on a green metallic cube with an open dark, almost black area. An arm is seen reaching towards it. Style: line_art, artistic_level: 3, size: 1280x1024
+(14:57 - 15:08) Prompt: A hand extends out with a needle at its point, being held very close to the side of a neck. Style: depressive, artistic_level: 4, size: 1280x1024
+(15:08 - 15:21) Prompt: The old woman is glaring at the boy, a silver set of sharp teeth showing. She holds a silver sharp, thin needle and is looking directly towards the viewer. Style: metallic, artistic_level: 5, size: 1434x1024
+(15:21 - 15:36) Prompt: A shadowy, abstract, image of people standing in an unknown dark space. Their bodies and skin is broken into patterns, and they seem to fade into the darkness around them. Style: broken_line, artistic_level: 5, size: 1365x1024
+(15:36 - 15:50) Prompt: An abstract image, showing a person with a hand gripping a needle over a shadowy neck. The style is meant to be fast moving and a little blurred. Style: motion_blur, artistic_level: 4, size: 1280x1024
+(15:50 - 16:07) Prompt: A set of eyes in the shadows, glaring at the viewer with a hint of glee and maliciousness. Style: noir, artistic_level: 3, size: 1024x1024
+(16:07 - 16:26) Prompt: A close up on a black box with a hand inside of it, a faint amount of detail is visible through the light of the room. Style: b_and_w, artistic_level: 2, size: 1024x1536
+(16:26 - 16:44) Prompt: A dark silhouette in a bed, while light peeks in from a doorway. Style: faded_nostalgia, artistic_level: 3, size: 1365x1024
+(16:44 - 17:01) Prompt: A birds eye view of a room, with a bed in the center and an adjacent door leading into a bright hallway, a faint outline of Paul in the bed. Style: 80s, artistic_level: 2, size: 2048x1024
+(17:01 - 17:15) Prompt: A view of people walking in the desert with no sky in sight, just vast sand dunes reaching out for miles. Style: real_life_glow, artistic_level: 3, size: 1707x1024
+(17:15 - 17:32) Prompt: An abstract image with swirls of color and light, with a faint set of hands appearing to be controlling the scene. Style: watercolor, artistic_level: 3, size: 1280x1024
+(17:32 - 17:51) Prompt: A dark and twisted image, highlighting the power of a vicious animal using its instinct to cause pain. Style: depressive, artistic_level: 4, size: 1365x1024
+(17:51 - 18:07) Prompt: A view of an eye looking forward, with a faint grid pattern superimposed on the eye. Style: thin, artistic_level: 2, size: 1280x1024
+(18:07 - 18:21) Prompt: A bedroom, with the sun shining through a window that shows patterns in the window pane. The room is in the shadows except for the light coming in through the window. Style: evening_light, artistic_level: 3, size: 1434x1024
+(18:21 - 18:40) Prompt: A profile shot of Paul’s mother, Jessica, looking at the viewer with a stoic and somber look, her hair like shaded bronze, held with black ribbon at the crown. Her oval face is emotionless, and her green eyes stare directly at the camera. Style: studio_portrait, artistic_level: 2, size: 1536x1024
+(18:40 - 18:50) Prompt: The Atreides Hawk symbol embroidered on a red jacket. Style: vector_illustration, substyle: bold_stroke, artistic_level: 2, size: 1024x1024
+(18:50 - 19:05) Prompt: Paul sitting in the dim morning room, hugging his legs with a thoughtful gaze. Style: pop_art, artistic_level: 3, size: 1434x1024
+(19:05 - 19:22) Prompt: Jessica turns around to put clothing on a dressing stand, with the light from the window showing past her. Style: realistic_image, substyle: natural_tones, artistic_level: 3, size: 1707x1024
+(19:22 - 19:33) Prompt: A set of lips with a slight scowl, and a barely visible set of teeth, while in the dark. Style: broken_line, artistic_level: 4, size: 1024x1024
+(19:33 - 19:49) Prompt: The view out of a window of a river, with a large expanse of forest. Style: enterprise, artistic_level: 2, size: 1365x1024
+(19:49 - 20:10) Prompt: A woman with detailed features and clothing is sitting in a chair, looking severe and determined. Style: engraving, artistic_level: 3, size: 1280x1024
+(20:10 - 20:24) Prompt: A woman looks at a child with a slight look of concern, her hair pulled back, and her eyes are large with fear. Style: kawaii, artistic_level: 2, size: 1024x1024
+(20:24 - 20:40) Prompt: A door closes with a hand visible in the lower right of the image. A tiny stream of light can be seen from under the door. Style: broken_line, artistic_level: 2, size: 1365x1024
+(20:40 - 20:52) Prompt: Close up of an old woman’s wrinkled mouth that is pulled into a smile. Style: linocut, artistic_level: 4, size: 1024x1024
+(20:52 - 21:14) Prompt: An image of a hand gesturing toward the camera in an aggressive motion. Style: sharp_contrast, artistic_level: 4, size: 1280x1024
+(21:14 - 21:22) Prompt: A hand places a right hand into a green metal cube, with a dark void on one side. Style: line_circuit, artistic_level: 3, size: 1280x1024
+(21:22 - 21:34) Prompt: A hand is surrounded by a dark inky substance, it gives the appearance that it is submerged in the darkness. Style: seamless, artistic_level: 3, size: 1536x1024
+(21:34 - 21:55) Prompt: Close up of a woman’s face, her features sharp and her eyes full of malice and danger. She looks towards the side. Style: hard_flash, artistic_level: 4, size: 1024x1536
+(21:55 - 22:13) Prompt: An abstract rendering of a sharp silver object placed by the side of a neck, with light showing the edges of the needle. Style: chemistry, artistic_level: 2, size: 1024x1024
+(22:13 - 22:24) Prompt: The face of a young boy filled with intense fear, looking upwards as though he is staring into death. Style: expressionism, artistic_level: 5, size: 1536x1024
+(22:24 - 22:36) Prompt: A black box with a single word, "PAIN", lit from within. bbox: [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]], text_layout: [ { 'text': "PAIN", 'bbox': [[0.2, 0.2], [0.8, 0.2], [0.8, 0.7], [0.2, 0.7]] } ], style: neon_calm, artistic_level: 2, size: 1280x1024
+(22:36 - 22:50) Prompt: A dark room with a single black hand reaching towards a light source that looks like a small black hole. Style: b_and_w, artistic_level: 2, size: 1024x1024
+(22:50 - 23:12) Prompt: The sun rises through an open window sill, casting a long yellow ray into a dark room, while the outline of a person sits in bed. Style: faded_nostalgia, artistic_level: 3, size: 1365x1024
+(23:12 - 23:29) Prompt: A classroom with several people sitting and listening to a lecture, they look like simple, plain, unmemorable people. Style: realistic_image, substyle: faded_nostalgia, artistic_level: 3, size: 1024x1024
+(23:29 - 23:43) Prompt: A group of shadowy figures walking on a desert, heading towards a large cliff face. Style: vivid_shapes, artistic_level: 4, size: 1820x1024
+(23:43 - 23:55) Prompt: A set of glowing, intertwined roots that are connected to a set of hands, with a person's shadowy figure appearing in the background. Style: cosmics, artistic_level: 4, size: 1280x1024
+(23:55 - 24:05) Prompt: A wild beast tears into another, with the flesh and blood spraying outwards. Style: hard_comics, artistic_level: 5, size: 1280x1024
+(24:05 - 24:17) Prompt: The faint pattern of a grid slowly comes into view as the camera pans over a detailed human brain, showing all its connections. Style: chemistry, artistic_level: 2, size: 1365x1024
+(24:17 - 24:29) Prompt: Dawn light floods a bedroom, but with the majority of the room in the shadows. Style: real_life_glow, artistic_level: 3, size: 1365x1024
+(24:29 - 24:47) Prompt: A close up of a woman's face, her hair like shaded bronze and bound with black ribbon, her eyes are wide as though in thought. Style: studio_portrait, artistic_level: 2, size: 1024x1536
+(24:47 - 24:56) Prompt: A dressing stand with a jacket on it, showing the Atreides Hawk symbol above the pocket with a set of trousers nearby. Style: vector_illustration, substyle: marker_outline, artistic_level: 2, size: 1024x1024
+(24:56 - 25:15) Prompt: An image of a stone archway with light bursting forth from inside the archway. Style: child_book, artistic_level: 2, size: 1280x1024
+(25:15 - 25:26) Prompt: A woman places clothing on a dress rack near a window, she appears nervous. Style: faded_nostalgia, artistic_level: 3, size: 1024x1536
+(25:26 - 25:35) Prompt: A close up of a person looking worried and concerned, with their hands placed to their side. Style: modern_folk, artistic_level: 3, size: 1024x1024
+(25:35 - 25:47) Prompt: A long view of orchards by a river, with hills visible in the background. Style: evening_light, artistic_level: 2, size: 1820x1024
+(25:47 - 26:03) Prompt: A close up on a face that is wrinkled and hard, with a set of eyes that are both piercing and sharp. Style: digital_engraving, artistic_level: 3, size: 1365x1024
+(26:03 - 26:12) Prompt: A medium shot of a woman with bronze hair held back with black ribbon, her face is oval and looks solemn, style: studio_portrait, substyle: pastel_gradient, artistic_level: 2
+(26:12 - 26:26) Prompt: A view from behind a woman with bronze hair held by a black ribbon at the crown of her head, her face is an oval, with green eyes that stare directly at you. she is wearing a jacket that is decorated with a red hawk crest above the breast pocket, style: retro_realism, artistic_level: 1
+(26:26 - 26:42) Prompt: A close-up of a woman with hair like matted spiderwebs, hooded, in a dark place, with eyes like glittering jewels, style: noir, artistic_level: 4
+(26:42 - 26:51) Prompt: A close up on an old woman with a face full of wrinkles with a sly smile, Style: expressionism, artistic_level: 2
+(26:51 - 27:02) Prompt: The woman's eyes seem to expand and glow as they stare directly at a viewer through the shadows, style: urban_glow, artistic_level: 3
+(27:02 - 27:15) Prompt: A very simple 3D representation of a small black box on a white surface, style: voxel, artistic_level: 0
+(27:15 - 27:21) Prompt: A medium shot of the barren landscape of Arrakis, style: realistic_image, substyle: faded_nostalgia, artistic_level: 0
+(27:21 - 27:33) Prompt: A medium shot of the arid desert landscape, no life exists, style: mystic_naturalism, artistic_level: 1
+(27:33 - 27:42) Prompt: A dark, cavernous space with dim glow globes illuminating people moving about, style: b_and_w, artistic_level: 3
+(27:42 - 27:54) Prompt: A close up view of a person in a warm bed, with their eyes open, style: real_life_glow, artistic_level: 2
+(27:54 - 28:10) Prompt: A digital illustration of a building with cool grays and black patterns, with no people in sight, style: digital_engraving, artistic_level: 2
+(28:10 - 28:22) Prompt: A medium-wide shot of the desert edge with people in tattered clothes and wind blown robes moving near it, style: village_realism, artistic_level: 1
+(28:22 - 28:32) Prompt: A close-up of three figures with three quick breaths creating a floating awareness, style: seamless, artistic_level: 4
+(28:32 - 28:43) Prompt: A close-up of the figure with their eyes shut, falling into a floating awareness, style: natural_tones, artistic_level: 2
+(28:43 - 29:00) Prompt: A long perspective view of an empty, well-lit stone room, with patterned beams on the ceiling and a figure laying in a bed, style: urban_drama, artistic_level: 1
+(29:00 - 29:13) Prompt: A tall woman with hair like shaded bronze held with black ribbon at the crown, an oval face, emotionless with green eyes, holding a man’s formal jacket, style: studio_portrait, artistic_level: 2
+(29:13 - 29:25) Prompt: A close-up on a woman, in an almost cartoon style, with green eyes that are staring, and a slight hint of tension in her shoulders, style: cartoon, artistic_level: 1
+(29:25 - 29:40) Prompt: A full body shot of Reverend Mother Gaius Helen Mohiam, in a long dress with windows on each side, she sits in a tapestry chair, with a cold, yet fierce face, style: bold_fantasy, artistic_level: 4
+(29:40 - 29:56) Prompt: A wide shot of a vast, expansive desert landscape with dunes that stretch to the horizon, with a tall figure at the very bottom of the image, style: natural_light, artistic_level: 1
+(29:56 - 30:03) Prompt: A close-up of a face sleeping, with a thin, disdainful nose, style: studio_portrait, artistic_level: 0
+(30:03 - 30:12) Prompt: A view of a young man sleeping as a figure pushes his mother out the door with a solid thump, style: infantile_sketch, artistic_level: 2
+(30:12 - 30:20) Prompt: A close up on a woman with dark hair tied with a black ribbon at the crown, oval face, expressionless with green eyes, style: young_adult_book_2, artistic_level: 2
+(30:20 - 30:31) Prompt: A medium shot of a person in a bed, with their eyes open, a glint of light in the pupils and dark eyebrows on their forehead, style: real_life_glow, artistic_level: 1
+(30:31 - 30:39) Prompt: An illustration of a long, stretched face with very thin lips, style: naivector, artistic_level: 0
+(30:39 - 30:49) Prompt: A full body shot of a young man hugging his knees, a somber look on his face, Style: modern_folk, artistic_level: 1
+(30:49 - 31:00) Prompt: A medium-close shot of a young man’s hands as he holds them by his knees, the image is a bit hazy and blurry, style: pastel_sketch, artistic_level: 1
+(31:00 - 31:09) Prompt: A wide shot of the horizon, the sun rising in the distance, style: evening_light, artistic_level: 1
+(31:09 - 31:16) Prompt: A medium shot of the edge of a desert with strange-looking plants, style: organic_calm, artistic_level: 0
+(31:16 - 31:25) Prompt: A close-up on a person with wind-swept robes, their eyes are squinted closed, Style: motion_blur, artistic_level: 3
+(31:25 - 31:31) Prompt: A medium shot of a hand, the fingers are clenched together and tense, Style: thin, artistic_level: 1
+(31:31 - 31:36) Prompt: An object floating in black, style: outline, artistic_level: 1
+(31:36 - 31:47) Prompt: A close up on a person in a bed as they open their eyelids to see light, style: natural_light, artistic_level: 2
+(31:47 - 32:05) Prompt: A full body shot of a tall woman with high bronze hair wearing a semiformal jacket, her oval face is emotionless with green eyes staring, Style: 2d_art_poster_2, artistic_level: 2
+(32:05 - 32:16) Prompt: A close up on a pair of hands gripping the knees, the muscles are taut, style: pastel_sketch, artistic_level: 2
+(32:16 - 32:25) Prompt: A medium wide shot of a city with tall stone buildings, with a river running through it, style: graphic_intensity, artistic_level: 1
+(32:25 - 32:35) Prompt: A view of a rocky mountain with desert plants dotted throughout, style: desert, artistic_level: 1
+(32:35 - 32:43) Prompt: A dark, narrow alleyway, style: noir, artistic_level: 4
+(32:43 - 32:54) Prompt: A view of the desert landscape where the wind is kicking up large amounts of dust and sand, style: natural_light, artistic_level: 3
+(32:54 - 33:02) Prompt: A close up of a set of hands, a woman’s, clenched into a fist, with her fingers digging into her palm, style: hand_drawn_outline, artistic_level: 3
+(33:02 - 33:20) Prompt: A face viewed up close, it is old with an emotionless expression, Style: faded_nostalgia, artistic_level: 1
+(33:20 - 33:31) Prompt: A woman with hair held up by a silver clasp, a high oval forehead, and a gaze that seems to be looking down, Style: real_life_glow, artistic_level: 2
+(33:31 - 33:47) Prompt: A full body shot of an old woman sitting in a tapestry chair, with windows to the side and behind her, the setting is a study room, style: digital_engraving, artistic_level: 1
+(33:47 - 33:58) Prompt: An aerial view of a wide, flat plain with trees dotted throughout, Style: forest_life, artistic_level: 2
+(33:58 - 34:13) Prompt: A close up view of a face through the shadows with the mouth moving slightly, Style: expressionism, artistic_level: 3
+(34:13 - 34:26) Prompt: An old woman looking directly at a younger woman who stands before her, both have stern expressions, style: realistic_image, substyle: b_and_w, artistic_level: 0
+(34:26 - 34:34) Prompt: A man in a bed, with a look of fear on his face, as an old woman’s silhouette can be seen at the door to his room, style: infantial_sketch, artistic_level: 3
+(34:34 - 34:51) Prompt: A close up on a man’s face, seen from above, the features are sharp, with prominent cheek bones and jawline, Style: studio_portrait, artistic_level: 2
+(34:51 - 35:02) Prompt: A close up view of a hand clenching into a fist with sharp fingernails biting into the palm, style: sharp_contrast, artistic_level: 3
+(35:02 - 35:22) Prompt: A close-up on the face of an old woman, staring intently, with silver, metal teeth, pale gums, and deep set, dark eyes, Style: bold_fantasy, artistic_level: 3
+(35:22 - 35:30) Prompt: A medium shot of a woman’s face, with concern in her eyes, the lips are parted slightly, style: melancholic_pastel, artistic_level: 2
+(35:30 - 35:45) Prompt: A profile shot of a woman facing away from a viewer, with concern in her eyes, the mouth is slightly agape, looking over a city and towards a mountain, style: freehand_details, artistic_level: 2
+(35:45 - 35:58) Prompt: A profile view of a man in formal dress, with his arms at his side, he stares straight ahead, a look of cold anger on his face, style: urban_drama, artistic_level: 3
+(35:58 - 36:09) Prompt: The face of an old woman, with wrinkles and an old mouth, a smile is barely visible, style: natural_tones, artistic_level: 1
+(36:09 - 36:16) Prompt: A woman’s hand, extended to her side, style: outline_details, artistic_level: 3
+(36:16 - 36:27) Prompt: A close up on a hand holding a small metal cube, Style: linocut, artistic_level: 1
+(36:27 - 36:44) Prompt: A medium-wide shot of a stone room with windows on both sides with a woman sitting in a tapestry chair, style: bold_fantasy, artistic_level: 2
+(36:44 - 36:58) Prompt: A medium-shot of two people, an old woman and a younger woman, they approach a third figure seated in a chair, style: hand_drawn, artistic_level: 2
+(36:58 - 37:05) Prompt: A woman wearing heavy dark robes, her arms are crossed, Style: enterprise, artistic_level: 3
+(37:05 - 37:18) Prompt: A full body shot of a man in a suit giving a curt bow, the view is from behind the man, style: studio_portrait, artistic_level: 1
+(37:18 - 37:30) Prompt: A close up on a woman with a hardened expression, as she looks at a young man, style: hard_flash, artistic_level: 2
+(37:30 - 37:45) Prompt: A close-up of an old woman with pale gums and silver metal teeth, her eyes are wide, style: digital_engraving, artistic_level: 3
+(37:45 - 38:03) Prompt: A medium shot of two women, one with dark hair and one with blonde, looking at one another, style: pop_art, artistic_level: 3
+(38:03 - 38:12) Prompt: A young man with his head turned slightly to the side, his eyes looking towards an old woman, style: studio_portrait, artistic_level: 1
+(38:12 - 38:25) Prompt: A medium shot of an old woman with deep set eyes, with a long, prominent nose, the woman is looking directly at a viewer, style: engraving_color, artistic_level: 3
+(38:25 - 38:31) Prompt: A side profile view of a man in a chair, with his left hand clenched into a fist, style: enterprise, artistic_level: 1
+(38:31 - 38:39) Prompt: A medium shot of a woman as she holds a long black coat, style: evening_light, artistic_level: 2
+(38:39 - 38:50) Prompt: A man wearing formal wear sits with his hands hugged around his knees as he waits in his room, style: motion_blur, artistic_level: 3
+(38:50 - 39:02) Prompt: A medium-shot of a woman with dark red hair with her hands clasped in her lap, style: bold_stroke, artistic_level: 1
+(39:02 - 39:10) Prompt: A medium shot of a man with his back turned to the viewer as he flings wide draperies by a window, style: urban_sketching, artistic_level: 2
+(39:10 - 39:23) Prompt: A face seen in profile, the lips are pressed tightly together and the eyes are set on the distance, Style: natural_light, artistic_level: 3
+(39:23 - 39:40) Prompt: A full body shot of a woman looking at a man, who is seated on his bed, she has her back to the viewer, style: 2d_art_poster_2, artistic_level: 2
+(39:40 - 39:50) Prompt: The legs of a man seated on his bed, holding his knees, style: thin, artistic_level: 1
+(39:50 - 40:02) Prompt: A full shot of a room with stone walls and long tapestries hung around it, style: antiquarian, artistic_level: 2
+(40:02 - 40:15) Prompt: A medium-close shot of an old woman with a face that is a skull, with bright, gleaming eyes, style: hand_drawn_outline, artistic_level: 3
+(40:15 - 40:25) Prompt: A view of a woman from an angle above her looking at her back and shoulder, her hand is by her side, style: studio_portrait, substyle: faded_nostalgia, artistic_level: 1
+(40:25 - 40:39) Prompt: A side view of a man, with a sharp, defined chin, black hair and dark clothing, Style: expressionism, artistic_level: 2
+(40:39 - 40:48) Prompt: A medium shot of a hand reaching over, in a tight clench, Style: line_art, artistic_level: 1
+(40:48 - 41:04) Prompt: An illustration of a large black box, a hand reaching down into a dark space, the box is on a table, style: line_circuit, artistic_level: 2
+(41:04 - 41:11) Prompt: An old woman with a distorted look, she is looking down at a hand in a dark box, style: depressive, artistic_level: 3
+(41:11 - 41:18) Prompt: A digital illustration of a hand inside of a box as it’s closed in darkness, style: seamless, artistic_level: 4
+(41:18 - 41:26) Prompt: The profile of an old woman, her face is contorted as she looks down, Style: bold_stroke, artistic_level: 3
+(41:26 - 41:36) Prompt: A medium shot of a hand as it’s held up by a person, the hand has an unnerving and predatory gaze, style: line_circuit, artistic_level: 2
+(41:36 - 41:45) Prompt: A view of a neck with a glint of metal there, style: thin, artistic_level: 1
+(41:45 - 41:57) Prompt: A close up of an old woman with sharp, silver teeth, she is speaking, style: bold_fantasy, artistic_level: 3
+(41:57 - 42:08) Prompt: A medium shot of two figures, a man and woman, their faces are blurry, while the background is in sharp focus, style: b_and_w, artistic_level: 3
+(42:08 - 42:18) Prompt: A medium shot of the black box, with a hand hovering near it, Style: sharp_contrast, artistic_level: 3
+(42:18 - 42:34) Prompt: A medium wide view of a room with a light source, the floor is stone and there is a person standing on the right and a woman seated on the left, style: realistic_image, substyle: real_life_glow, artistic_level: 1
+(42:34 - 42:42) Prompt: The top of a figure's head, the person has a high cheekbone, style: pastel_gradient, artistic_level: 2
+(42:42 - 43:00) Prompt: A close up of a mouth with metallic silver teeth, style: line_art, artistic_level: 1
+(43:00 - 43:08) Prompt: An old woman, the mouth has pale gums, with a stern look, style: engraving_color, artistic_level: 2
+(43:08 - 43:18) Prompt: A close up on a right arm, the hand is gripping a black, bone-like object, Style: line_circuit, artistic_level: 3
+(43:18 - 43:34) Prompt: A close up of a right hand with a weapon, with a shiny surface, a pale arm holding it up, style: engraved_color, artistic_level: 3
+(43:34 - 43:43) Prompt: Two hands with their fingernails biting into their respective palms, style: infantile_sketch, artistic_level: 2
+(43:43 - 43:55) Prompt: A medium view of two figures who stand next to each other, their shoulders are straight and their hands at their sides, Style: freehand_details, artistic_level: 2
+(43:55 - 44:05) Prompt: A close-up of two hands, with red marks from nails on the skin, Style: thin, artistic_level: 1
+(44:05 - 44:21) Prompt: A medium-wide view of an old woman and a younger man, the old woman’s back is to the viewer, the man looks towards the old woman, Style: pop_art, artistic_level: 2
+(44:21 - 44:33) Prompt: A medium-shot of a young man as he looks toward an old woman, the woman has a cold face and the man’s has fear, style: cover, artistic_level: 2
+(44:33 - 44:44) Prompt: An old woman holding her arm back as though to push back a young man who is in a large frame, Style: engraving_color, artistic_level: 2
+(44:44 - 44:56) Prompt: A side-profile of an old woman, her cheekbones are prominent and her face seems severe, Style: bold_stroke, artistic_level: 3
+(44:56 - 45:05) Prompt: The face of a tall woman with dark eye brows and a thin face, looking directly at a viewer, Style: melancholic_pastel, artistic_level: 2
+(45:05 - 45:19) Prompt: A wide view of a long table with many chairs around it, at the top of the image, a woman sits next to a window, Style: enterprise, artistic_level: 2
+(45:19 - 45:34) Prompt: A full body shot of a woman in a formal coat, with her body twisted to the side, she is walking away, Style: natural_tones, artistic_level: 2
+(45:34 - 45:41) Prompt: A view of a door as it closes on a dark room, Style: noir, artistic_level: 3
+(45:41 - 45:51) Prompt: A close-up on the face of an old woman, one eye is cast down and her mouth is slightly open in a smile, style: faded_nostalgia, artistic_level: 2
+(45:51 - 46:00) Prompt: A smiling wrinkled mouth with thin lips, and a pale face, Style: line_art, artistic_level: 1
+(46:00 - 46:10) Prompt: A close-up of a hand reaching out and drawing a black line on a wall, style: seamless, artistic_level: 2
+(46:10 - 46:22) Prompt: A side-profile view of an old woman in black clothing, she is looking away from the viewer and towards the side, style: expressionism, artistic_level: 3
+(46:22 - 46:34) Prompt: A view of a woman’s hand moving across the surface of a desk, style: watercolor, artistic_level: 2
+(46:34 - 46:44) Prompt: The close-up view of a face that is filled with anger as the person speaks, style: enterprise, artistic_level: 3
+(46:44 - 46:59) Prompt: A close up on a mouth, with pale lips and gums that are moving to speak, the person has silver metal teeth, style: digital_engraving, artistic_level: 3
+(46:59 - 47:10) Prompt: A close up on a neck, a finger is brushing the neck, style: chemical, artistic_level: 2
+(47:10 - 47:17) Prompt: A close-up of an old wrinkled face with a hand moving near the neck, style: pastel_gradient, artistic_level: 3
+(47:17 - 47:30) Prompt: A woman looks towards the sky, with worry showing on her face, style: natural_light, artistic_level: 2
+(47:30 - 47:39) Prompt: A medium view of a woman with concern in her eyes, she is wearing formal wear and her body is facing towards the left, style: street_art, artistic_level: 1
+(47:39 - 47:48) Prompt: A man with a gaunt face, with eyes glowing and focused, style: hand_drawn_outline, artistic_level: 3
+(47:48 - 47:57) Prompt: A hand holding a long, thin object that has an extremely fine point, style: chemistry, artistic_level: 2
+(47:57 - 48:03) Prompt: A mouth speaking with a glint of silver teeth, style: engraving_color, artistic_level: 3
+(48:03 - 48:13) Prompt: A close-up of a mouth, the lips are dry, Style: linocut, artistic_level: 1
+(48:13 - 48:25) Prompt: An old woman with a prominent brow bone and cheekbones, her silver metal teeth are slightly visible, Style: melancholic_pastel, artistic_level: 3
+(48:25 - 48:38) Prompt: A person with an eye half closed, their hair like matted spider webs, and eyes like glittering jewels, style: vector_photo, artistic_level: 2
+(48:38 - 48:51) Prompt: A close-up of two blue eyes that peer up towards the light, style: bold_stroke, artistic_level: 2
+(48:51 - 49:02) Prompt: A close-up of a hand in a dark box, a coldness is implied, style: seamless, artistic_level: 1
+(49:02 - 49:10) Prompt: An old woman’s face, she has a predatory look on her face, Style: pop_art, artistic_level: 3
+(49:10 - 49:18) Prompt: The hands of a woman as she holds them on the side of her neck, style: engraving_color, artistic_level: 1
+(49:18 - 49:28) Prompt: A dark face in shadow with intense light reflecting off of the eyes, style: hard_flash, artistic_level: 4
+(49:28 - 49:38) Prompt: A medium shot of a man, with a hand poised by his neck, style: vector_illustration, artistic_level: 2
+(49:38 - 49:54) Prompt: A close-up on an old hand as it poises an object next to a person’s neck, style: line_art, artistic_level: 1
+(49:54 - 50:04) Prompt: A close-up of an old face, the lips are pale and drawn, and the eyes stare intently, style: hard_flash, artistic_level: 3
+(50:04 - 50:14) Prompt: A wide view of a face as an old woman tells a person about the poisons, style: infographic, artistic_level: 1
+(50:14 - 50:23) Prompt: A close up on a hand trying to swallow, style: realistic_image, substyle: motion_blur, artistic_level: 3
+(50:23 - 50:33) Prompt: A close up of a hand and face as a person can not take their eyes from an old face, style: natural_light, artistic_level: 2
+(50:33 - 50:46) Prompt: A close-up of a face with sharp features, pale lips with silver teeth, the eyes are a glassy sheen, style: engraved_color, artistic_level: 3
+(50:46 - 50:56) Prompt: A close-up on a woman’s mouth, the lips are pulled taut and dry, style: bold_stroke, artistic_level: 3
+(50:56 - 51:07) Prompt: A side view of a face as it looks to the left and her eyes have a crazed look, style: chemical, artistic_level: 2
+(51:07 - 51:17) Prompt: A close-up view of a person's face, their skin is curling black, style: psychedelic, artistic_level: 3
+(51:17 - 51:28) Prompt: The close-up view of an old woman’s face, her eyes are gleaming with a dark intent, style: bold_fantasy, artistic_level: 4
+(51:28 - 51:35) Prompt: A side profile of a neck with a tiny needle coming close, style: line_circuit, artistic_level: 2
+(51:35 - 51:42) Prompt: An old woman as she steps away from a door, pushing a woman in front of her, Style: child_book, artistic_level: 2
+(51:42 - 51:50) Prompt: The face of an old woman as she pushes a person out of the room, Style: expressionism, artistic_level: 4
+(51:50 - 52:05) Prompt: A medium-shot of a woman who is having a hard time with a door, as the old woman slams it, Style: hand_drawn_outline, artistic_level: 2
+(52:05 - 52:18) Prompt: A full body shot of a young man as he sits in his bed, confused, wondering what just happened, style: infantial_sketch, artistic_level: 2
+(52:18 - 52:29) Prompt: A medium shot of a face with their mouth open, trying to speak a word that is jumbled and confused, style: antiquarian, artistic_level: 1
+(52:29 - 52:44) Prompt: An illustration, from a high angle, of two men talking in a room, their heads are low and faces mostly hidden, style: graphic_intensity, artistic_level: 3
+(52:44 - 52:54) Prompt: A side view of a hand, as it's held to the neck, a glint of metal can be seen there, style: colored_stencil, artistic_level: 3
+(52:54 - 53:00) Prompt: A medium-close shot of an old woman with her eyes narrowed, her lips a thin straight line, style: hard_flash, artistic_level: 4
+(53:00 - 53:08) Prompt: A hand presses a black box closed, Style: seamless, artistic_level: 2
+(53:08 - 53:17) Prompt: A man is reaching down to grab something with a look of concentration on his face, Style: contour_pop_art, artistic_level: 1
+(53:17 - 53:27) Prompt: A side shot of a face looking up, with black hair and eyebrows with a stern look, Style: studio_portrait, artistic_level: 3
+(53:27 - 53:37) Prompt: A profile shot of a face, the eyes are slightly glazed, the nose is thin, and the face has a pale hue to it, style: real_life_glow, artistic_level: 2
+(53:37 - 53:45) Prompt: A close up view of an old woman’s face, a sly smile is apparent, Style: pop_art, artistic_level: 3
+(53:45 - 53:51) Prompt: A profile view of an old woman in black, style: flat_2, artistic_level: 1
+(53:51 - 54:01) Prompt: A view of a hand on a metal tube, the person is testing it as the background is blurry, style: line_circuit, artistic_level: 2
+(54:01 - 54:13) Prompt: A man is looking towards the top of an object and his face is dark and in shadow, style: street_art, artistic_level: 4
+(54:13 - 54:23) Prompt: A man with his lips pressed tightly, he is looking down at a desk, style: engraving, artistic_level: 2
+(54:23 - 54:34) Prompt: A close up of a man with a stern look on his face, his eyes are fixed and unblinking, style: expressionism, artistic_level: 3
+(54:34 - 54:42) Prompt: An old woman with a thin, sharp nose and a smile forming, style: naivector, artistic_level: 1
+(54:42 - 54:49) Prompt: A close-up of a dark haired person with a high brow bone and a piercing gaze, Style: freehand_details, artistic_level: 2
+(54:49 - 55:00) Prompt: A medium-shot of an old woman sitting with her arms by her sides, looking off into the distance, style: watercolor, artistic_level: 2
+(55:00 - 55:10) Prompt: A side-view of a black haired person sitting with their head down and knees pulled up, style: natural_tones, artistic_level: 1
+(55:10 - 55:16) Prompt: A long shot of two men, one very fat and one quite thin, looking at a globe, style: cartoon, artistic_level: 2
+(55:16 - 55:28) Prompt: An old woman, with sharp and fierce eyes that pierce the viewer, style: line_art, artistic_level: 3
+(55:28 - 55:37) Prompt: A view of a hand as it moves slowly, Style: thin, artistic_level: 1
+(55:37 - 55:48) Prompt: A person’s hands with sharp, pronounced knuckles, Style: colored_stencil, artistic_level: 2

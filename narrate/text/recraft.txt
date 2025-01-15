@@ -1,0 +1,498 @@
+Recraft introduces a revolutionary AI model that thinks in design language
+
+Recraft V3 is state-of-the-art in image generation
+
+Today, we are announcing Recraft V3, our latest model that sets a new quality standard in the image generation space, outperforming all competitor models proven by the Hugging Face’s industry-leading Text-to-Image Benchmark by Artificial Analysis.
+
+The new Recraft V3 delivers across-the-board improvements, with particularly notable advances in text generation.
+
+We are also launching several new important features that allow our users to have more control over AI generation: the possibility to specify text size and positions in the image, precise style control, improved inpainting, and new outpainting capabilities.
+
+The model is now available for both free and paid users in the desktop app on Canvas, in the mobile app (available on iOS and Android), and via API. 
+‍
+‍Winning image generation quality benchmarks
+
+Recraft V3 has set a new standard for excellence in image generation. Over the past 4 days Recraft V3 participated in the Hugging Face’s industry-leading Text-to-Image Model Leaderboard by Artificial Analysis. It secured #1 place with ELO rating of 1172. Recraft's new model is showing quality higher than models of Midjourney, OpenAI, and all other major image generation companies. 
+
+‍
+
+Artificial Analysis’s leaderboards are the most popular publicly available rankings that evaluate and compare the performance of machine learning models across various tasks and datasets. Each leaderboard is designed around a specific task or benchmark dataset, showcasing how different models measure performance metrics.
+
+The text-to-image leaderboard ranks image generation models by their ELO scores, determined by pairwise image comparisons labeled by image arena visitors. Originally developed for ranking chess players, the ELO rating system has since been adapted to evaluate models across various competitive benchmarks.
+
+The main advantages of Recraft V3 light in text generation quality, anatomical accuracy, prompt understanding, and high aesthetic quality.
+
+Recraft V3 is the only model in the world that can generate images with long texts, as opposed to just one or a couple of words.
+
+Anatomical correctness is the metric used to select the model that generates the most accurate anatomy, ensuring a proper number of fingers, hands, and legs, realistic body proportions, spatial coherence within the scene, and natural positioning of background objects relative to the main subject. Recraft V3 is tuned to generate images with correct anatomy.
+
+‍
+
+Prompt-following refers to how accurately the image aligns with the details specified in the prompt. Recraft V3 can generate images with complex scenes, including the correct count, color, and positions of objects mentioned in the prompt.
+
+‍
+
+Aesthetical value is a subjective metric of the "beautifulness" of the image. This is where Midjourney has historically shined. The new model Recraft V3 takes this metric into account and is trained to have high aesthetic value for generated images.
+
+State-of-the-art in generation meets control and design capabilities
+
+Recraft started with a goal to build foundation models in the image generation space that would solve the needs of professional designers. The text-to-image benchmark focuses on overall image generation quality. However, for real-world tasks in the graphic design field, having a high-quality text-to-image model is not enough. It is important to provide users full control over image generation so that they can implement their ideas with high precision.
+
+The new model Recraft V3 is trained to provide more control over image generation than all other existing AI models. This release's main innovations are:
+
+‍
+Positioning Control and Generation of Graphic designs
+
+The new model allows specifying the exact positions and sizes of text on a design.
+
+‍
+It is also possible to position other images and combine them with texts, allowing the generation of complex graphic designs.
+
+‍
+Style control 
+
+The improved style creation process allows for fine-grained experimentation. It is possible to select a set of images to represent the brand style, and experiment with the style candidate until it is tuned to the exact look and feel needed for the brand. This is possible because Recraft V3 accepts style as an input to the model, and doesn't require retraining of the model to catch details of the style.
+
+‍
+
+Apart from the improved control features, Recraft V3 supports unique capabilities vital for graphic design space. The distinctive feature of Recraft is that it supports vector image generation, ranging from sets of simplistic pictograms all the way to highly detailed vector art. Also, Recraft V3 provides a whole suite of AI image editing tools that helps designers create and edit visuals end-to-end: AI Eraser, Modify Area, Inpainting, Outpainting, AI Mockuper, Creative and Clarity Upscalers, AI Fine-Tuning, and Background Remover. 
+
+‍The first API with support of style consistency and vector art generation
+
+Recraft has also launched an API that enables developers and businesses to integrate SOTA image generation and AI design capabilities into their workflows. This API provides access to the Recraft model, supporting both raster and vector formats, generation of images with text and allowing for the creation of custom styles to ensure brand consistency. Additionally, it supports specifying brand colors and offers advanced features like vectorization, upscaling, image quality improvement, and background removal, providing users with a unique set of features covering all AI image editing suite via API.
+
+Authentication
+
+We use Bearer API tokens for authentication. To access your API key, log in to Recraft, enter your profile and hit 'Generate' (available only if your API units balance is above zero). All requests should include your API key in an Authorization HTTP header as follows:
+‍
+‍Authorization: Bearer RECRAFT_API_TOKEN
+
+REST / Python Library
+
+The Recraft API adheres to REST principles, allowing you to interact using any utilities (e.g., curl), programming languages, or libraries of your choice.
+
+One of the easiest of available alternatives is OpenAI Python library which is also compatible with Recraft API, but it’s important to remember that not all parameters/options are supported or implemented. Additionally, some parameters may have different meanings, or they may be quietly ignored if they are not applicable to the Recraft API.
+
+Future examples will be shown using that library, for example, once installed, you can use the following code to be authenticated:
+
+from openai import OpenAI
+
+client = OpenAI(
+    base_url='https://external.api.recraft.ai/v1',
+    api_key=<TOKEN>,
+)
+
+Usage
+
+Dig into the details of using the Recraft API.
+Generate Image
+
+Creates an image given a prompt.
+
+POST https://external.api.recraft.ai/v1/images/generations
+
+Example
+
+response = client.images.generate(
+    prompt='race car on a track',
+    style='digital_illustration',
+)
+print(response.data[0].url)
+
+Output
+
+https://img.recraft.ai/-dSeKnnWTUbG9wnzpV6OjN7I7PlFxAFmg6nyhvd3qSE/rs:fit:1024:1024:0/raw:1/plain/abs://external/images/cbb1770e-3e7e-49fd-bf17-7c689f6906c1
+
+Parameters
+Parameter Type Description
+prompt (required) string A text description of the desired image(s). The maximum length is 1000 characters
+text_layout Array of objects or null Available in recraftv3 model only. This topic is covered below
+n integer or null, default is 1 Currently, only n=1 and n=2 are supported at the moment
+style_id UUID or null Use a previously uploaded style as a reference, this topic is covered above and below
+style string or null, default is realistic_image The style of the generated images, this topic is covered above
+substyle string or null This topic is covered above
+model string or null, default is recraftv3 The model to use for image generation. Must be one of recraftv3 or recraft20b
+response_format string or null, default is url The format in which the generated images are returned. Must be one of url or b64_json
+artistic_level integer or null Defines artistic tone of your image. At a simple level, the person looks straight at the camera in a static and clean style. Dynamic and eccentric levels introduce movement and creativity.
+The value should be in range [0..5].
+size string or null, default is 1024x1024 The size of the generated images in WxH format, supported values are published below
+controls object or null A set of custom parameters to tweak generation process, this topic is covered below
+
+
+Note: style_id and style parameters are mutually exclusive. If neither of the two parameters is specified, the default style of realistic_image will be used
+
+‍Hint: if OpenAI Python Library is used, non-standard parameters can be passed using the extra_body argument. For example:
+
+response = client.images.generate(
+    prompt='race car on a track',
+    extra_body={
+        'style_id': style_id,
+        'controls': {
+            ...
+        }
+    }
+)
+print(response.data[0].url)
+
+Create style
+
+Upload a set of images to create a style reference.
+
+POST https://external.api.recraft.ai/v1/styles
+
+Example
+
+response = client.post(
+    path='/styles',
+    cast_to=object,
+    options={'headers': {'Content-Type': 'multipart/form-data'}},
+    body={'style': 'digital_illustration'},
+    files={'file1': open('image.png', 'rb')},
+)
+print(response['id'])
+
+Output
+
+{"id": "229b2a75-05e4-4580-85f9-b47ee521a00d"} 
+
+Request Body
+
+Upload a set of images to create a style reference.
+Parameter Type Description
+style (required) string The base style of the generated images, this topic is covered above.
+files (required) files Images in PNG format for using as style references. The max number of the images is 5.
+Get User Information
+
+Returns information of the current user including credits balance.
+
+GET https://external.api.recraft.ai/v1/users/me
+
+Example
+
+response = client.get(path='/users/me', cast_to=object)
+print(response)
+
+Output
+
+{
+    "credits": 1000,
+    "email": "test@example.com",
+    "id": "c18a1988-45e7-4c00-82c4-4ad7d3dbce3a",
+    "name": "Recraft Test"
+}
+
+Auxiliary
+Controls
+
+The generation process can be adjusted with a number of tweaks.
+colors (required) An array of preferable colors
+background_color Use given color as a desired background color
+Colors
+
+Color type is defined as an object with the following fields
+rgb (required) An array of 3 integer values in range of 0...255 defining RGB Color Model
+Example
+
+response = client.images.generate(
+    prompt='race car on a track',
+    style='realistic_image',
+    extra_body={
+        'controls': {
+            'colors': [
+                {'rgb': [0, 255, 0]}
+            ]
+        }
+    }
+)
+print(response.data[0].url)
+
+Text Layout
+
+Text layout is used to define spatial and textual attributes for individual text elements. Each text element consists of an individual word and its bounding box (bbox).
+text (required) A single word containing only supported characters.
+bbox (required) A bounding box representing a 4-angled polygon. Each point in the polygon is defined by relative coordinates.
+
+Bounding Box: The bounding box (bbox) is a list of 4 points representing a 4-angled figure (not necessarily a rectangle). Each point specifies its coordinates relative to the layout dimensions, where (0, 0) is the top-left corner, (1, 1) is the bottom-right corner.
+
+Coordinates: Coordinates are relative to the layout dimensions. Coordinates can extend beyond the [0, 1] range, such values indicate that the shape will be cropped.
+‍
+‍Points: The bounding box must always have exactly 4 points. Each point is an array of two floats [x, y] representing the relative position.
+
+Supported Characters: The text field must contain an individual word composed of the following supported characters: '!', '"', '#', '$', '%', '&', '\'', '(', ')', '*', '+', ',', '-', '.', '/','0', '1', '2', '3', '4', '5', '6', '7', '8', '9',':', '<', '>', '?', '@','A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R','S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z','_', '{', '}', 'Ø', 'Đ', 'Ħ', 'Ł', 'Ŋ', 'Ŧ', 'Α', 'Β', 'Ε', 'Ζ', 'Η', 'Ι', 'Κ', 'Μ', 'Ν', 'Ο', 'Ρ', 'Τ','Υ', 'Χ', 'І', 'А', 'В', 'Е', 'К', 'М', 'Н', 'О', 'Р', 'С', 'Т', 'У', 'Х','ß', 'ẞ'.
+Any character not listed above will result in validation errors.
+Example
+
+response = client.images.generate(
+    prompt='race car on a track',
+    style='realistic_image',
+    extra_body={
+        'text_layout': [
+            {
+                'text': 'HELLO',
+                'bbox': [[0.1, 0.2], [0.9, 0.2], [0.8, 0.7], [0.2, 0.6]],
+            },
+            {
+                'text': 'WORLD',
+                'bbox': [[-0.2, -0.1], [1.2, -0.1], [1.2, 1.1], [-0.2, 1.1]],
+            },
+        ],
+    },
+)
+print(response.data[0].url)
+
+Guides
+
+Generate AI images using cURL or Python and create your own styles programmatically.
+Generate a Digital Illustration Using RecraftV3 Model
+Curl
+Python
+
+from openai import OpenAI
+
+client = OpenAI(base_url='https://external.api.recraft.ai/v1', api_key=_RECRAFT_API_TOKEN)
+
+response = client.images.generate(
+  prompt='two race cars on a track',
+  style='digital_illustration',
+  model='recraftv3',
+)
+print(response.data[0].url)
+
+Generate a Realistic Image with Specific Size
+Curl
+Python
+
+curl https://external.api.recraft.ai/v1/images/generations \
+    -H "Content-Type: application/json" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -d '{
+        "prompt": "red point siamese cat",
+        "style": "realistic_image",
+        "size": "1280x1024"
+    }'
+
+Generate a Digital Illustration with Specific Substyle
+Curl
+Python
+
+curl https://external.api.recraft.ai/v1/images/generations \
+    -H "Content-Type: application/json" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -d '{
+        "prompt": "a monster with lots of hands",
+        "style": "digital_illustration",
+        "substyle": "hand_drawn"
+    }'
+
+Inpaint an Image with Digital Illustration Style
+Curl
+Python
+
+curl -X POST https://external.api.recraft.ai/v1/images/inpaint \
+    -H "Content-Type: multipart/form-data" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -F "prompt=moon" \
+    -F "style=digital_illustration" \
+    -F "image=@image.png" -F "mask=@mask.png"
+
+Create Own Style by Uploading Reference Images and Use Them for Generation
+Curl
+Python
+
+curl -X POST https://external.api.recraft.ai/v1/styles \
+    -H "Content-Type: multipart/form-data" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -F "style=digital_illustration" \
+    -F "file=@image.png"
+
+# response: {"id":"095b9f9d-f06f-4b4e-9bb2-d4f823203427"}
+
+curl https://external.api.recraft.ai/v1/images/generations \
+    -H "Content-Type: application/json" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -d '{
+        "prompt": "wood potato masher",
+        "style_id": "095b9f9d-f06f-4b4e-9bb2-d4f823203427"
+    }'
+
+Vectorize an Image in PNG format
+Curl
+Python
+
+curl -X POST https://external.api.recraft.ai/v1/images/vectorize \
+    -H "Content-Type: multipart/form-data" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -F "file=@image.png"
+
+Remove Background From a PNG Image, Get the Result in B64 JSON
+Curl
+Python
+
+curl -X POST https://external.api.recraft.ai/v1/images/removeBackground \
+    -H "Content-Type: multipart/form-data" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -F "response_format=b64_json" \
+    -F "file=@image.png"
+
+Run Clarity Upscale Tool for a PNG Image, Get the Result in B64 JSON
+Curl
+Python
+
+curl -X POST https://external.api.recraft.ai/v1/images/clarityUpscale \
+    -H "Content-Type: multipart/form-data" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -F "response_format=b64_json" \
+    -F "file=@image.png"
+
+Run Generative Upscale Tool for a PNG Image
+Curl
+Python
+
+curl -X POST https://external.api.recraft.ai/v1/images/generativeUpscale \
+    -H "Content-Type: multipart/form-data" \
+    -H "Authorization: Bearer $RECRAFT_API_TOKEN" \
+    -F "file=@image.png"
+
+Appendix
+List of styles
+Style RecraftV3 Substyles
+(NEW MODEL) Recraft20B Substyles
+any (not applicable) (not available)
+realistic_image - b_and_w
+- enterprise
+- evening_light
+- faded_nostalgia
+- forest_life
+- hard_flash
+- hdr
+- motion_blur
+- mystic_naturalism
+- natural_light
+- natural_tones
+- organic_calm
+- real_life_glow
+- retro_realism
+- retro_snapshot
+- studio_portrait
+- urban_drama
+- village_realism
+- warm_folk - b_and_w
+- enterprise
+- hard_flash
+- hdr
+- motion_blur
+- natural_light
+- studio_portrait
+digital_illustration - 2d_art_poster
+- 2d_art_poster_2
+- engraving_color
+- grain
+- hand_drawn
+- hand_drawn_outline
+- handmade_3d
+- infantile_sketch
+- pixel_art
+- antiquarian
+- bold_fantasy
+- child_book
+- child_books
+- cover
+- crosshatch
+- digital_engraving
+- expressionism
+- freehand_details
+- grain_20
+- graphic_intensity
+- hard_comics
+- long_shadow
+- modern_folk
+- multicolor
+- neon_calm
+- noir
+- nostalgic_pastel
+- outline_details
+- pastel_gradient
+- pastel_sketch
+- pop_art
+- pop_renaissance
+- street_art
+- tablet_sketch
+- urban_glow
+- urban_sketching
+- vanilla_dreams
+- young_adult_book
+- young_adult_book_2 - 2d_art_poster
+- 2d_art_poster_2
+- 3d
+- 80s
+- engraving_color
+- glow
+- grain
+- hand_drawn
+- hand_drawn_outline
+- handmade_3d
+- infantile_sketch
+- kawaii
+- pixel_art
+- psychedelic
+- seamless
+- voxel
+- watercolor
+vector_illustration - bold_stroke
+- chemistry
+- colored_stencil
+- contour_pop_art
+- cosmics
+- cutout
+- depressive
+- editorial
+- emotional_flat
+- engraving
+- infographical
+- line_art
+- line_circuit
+- linocut
+- marker_outline
+- mosaic
+- naivector
+- roundish_flat
+- segmented_colors
+- sharp_contrast
+- thin
+- vector_photo
+- vivid_shapes - cartoon
+- doodle_line_art
+- engraving
+- flat_2
+- kawaii
+- line_art
+- line_circuit
+- linocut
+- seamless
+icon (not available) - broken_line
+- colored_outline
+- colored_shapes
+- colored_shapes_gradient
+- doodle_fill
+- doodle_offset_fill
+- offset_fill
+- outline
+- outline_gradient
+- uneven_fill
+List of image sizes
+
+- 1024x1024
+- 1365x1024
+- 1024x1365
+- 1536x1024
+- 1024x1536
+- 1820x1024
+- 1024x1820
+- 1024x2048
+- 2048x1024
+- 1434x1024
+- 1024x1434
+- 1024x1280
+- 1280x1024
+- 1024x1707
+- 1707x1024
